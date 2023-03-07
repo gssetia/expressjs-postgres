@@ -20,6 +20,7 @@ app.use(bodyParser.text({ type: "text/html" }));
 app.get("/", async (req, res) => {
   const { rows } = await pool.query("SELECT * FROM brainmapperdata");
 //   res.send(`Hello, World! The time from the DB is ${rows}`);
+// Output all the data as a json to be grabbed by the api
   res.json(rows)
 });
 
