@@ -18,7 +18,6 @@ to a Railway PostgreSQL database.
 
 - Postgres
 - Express
-- TypeScript
 
 ## 💁‍♀️ How to use
 
